@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Systeme
+.DS_Store
+Thumbs.db
+
+# Donnees brutes de l'enquete : a retirer de cette liste UNIQUEMENT apres
+# verification des conditions d'acces OMS (voir data/README.md)
+data/raw/*.csv
+
+# Donnees derivees (reproductibles via les notebooks)
+data/processed/*
+!data/processed/.gitkeep
